@@ -2,28 +2,28 @@
 class Specjutsu < Formula
   desc "Makes AI coding agents prove their work: every spec scenario needs a failing test first"
   homepage "https://nabour-labs.github.io/specjutsu/"
-  version "0.5.1"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.5.1/sj-aarch64-apple-darwin.tar.gz"
-      sha256 "1b650241abf9e07ba509555803a0ab0a1076c07e603bbc9dd5acd6f8dc683b13"
+      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.6.0/sj-aarch64-apple-darwin.tar.gz"
+      sha256 "7dcf745fbc197f696e0e01519fce9a01682944dbc9e0a7be5980169e77b0366c"
     end
     on_intel do
-      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.5.1/sj-x86_64-apple-darwin.tar.gz"
-      sha256 "30f6482794d22f74566727541c8d483e3ec722991c677fa6b13a4aab4e6d6667"
+      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.6.0/sj-x86_64-apple-darwin.tar.gz"
+      sha256 "3be9ffa99c16bebf44dcf996767a2117177b46e0b5ea71b4469dbff69ab06b79"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.5.1/sj-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5ef2e00d0d88c8a12006326024ba5daa419f569ba2c3da4c284c043d197c8744"
+      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.6.0/sj-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "aedcb0ece9c511b7c7e824dad231b399633b3c0a851c4ad2c8756a5ca9e6762b"
     end
     on_intel do
-      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.5.1/sj-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "57d504b2d2d1a4f7235b8fa3667bb85e46578884cea983e65b74f4a19c8c473f"
+      url "https://github.com/nabour-labs/specjutsu/releases/download/v0.6.0/sj-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "106ac86d5f6fcba0158bf40dc486e0a669f30e426a182716d4a74ed2a9aca27f"
     end
   end
 
